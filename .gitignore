@@ -1,0 +1,29 @@
+# Raw official competition data: never push these
+data/raw/*
+!data/raw/.gitkeep
+
+# Hidden labels: leader only, never push
+data/private/*
+!data/private/.gitkeep
+
+# Optional: keep public split files out of Git by default because they can be large.
+# Use Git LFS or a private shared Drive/Kaggle dataset instead.
+data/public/*.csv
+data/public/*.csv.gz
+data/public/*.parquet
+!data/public/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/

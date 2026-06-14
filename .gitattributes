@@ -1,0 +1,4 @@
+# Uncomment these if you decide to use Git LFS in a private repo:
+# *.csv filter=lfs diff=lfs merge=lfs -text
+# *.csv.gz filter=lfs diff=lfs merge=lfs -text
+# *.parquet filter=lfs diff=lfs merge=lfs -text
