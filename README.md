@@ -111,7 +111,14 @@ This updates:
 leaderboard/leaderboard.csv
 leaderboard/leaderboard.md
 ```
+## How Team Members Submit to the Internal Leaderboard
 
+Each team member should train their model using:
+
+```text
+data/public/train_public.csv.gz
+data/public/valid_public.csv.gz
+```
 ## Team policy
 
 1. Use `valid_public.csv.gz` for development.
